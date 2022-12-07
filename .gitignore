@@ -1,0 +1,27 @@
+threejs/.DS_Store
+threejs/*.swp
+threejs/.project
+threejs/.idea/
+threejs/.vscode/
+threejs/npm-debug.log
+threejs/.jshintrc
+threejs/.vs/
+
+# The command'npm install --prefix test' adds files in the test folder (https://docs.npmjs.com/configuring-npm/folders.html#executables).
+# There are 2 kinds of files, those without extension and those with cmd extension.
+# To ignore files without a extension, following procedure is nessecary:
+# - ignore all files in the test folder
+# - unignore all files in subdirectories of the test folder
+# - unignore all files with an extension in the test folder
+threejs/test/*
+threejs/!test/*/
+threejs/!test/*.*
+threejs/test/*.cmd
+threejs/test/unit/build
+threejs/test/treeshake/index.bundle.js
+threejs/test/treeshake/index.bundle.min.js
+threejs/test/treeshake/index-src.bundle.min.js
+threejs/test/treeshake/stats.html
+
+
+threejs/**/node_modules
